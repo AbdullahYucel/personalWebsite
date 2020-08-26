@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/* 
+    v-chip: border radius
+    app fotoğrafına border radius ver
+*/
+
+#app {
+  background-color: #f0efeb;
+  font-family: 'Ubuntu';
+  font-weight: 700px;
+}
+#mainContent {
+  max-width: 1400px;
+}
+.baslik,
+.display-1 {
+  background-color: #22333b;
+  color: #cfe8ef;
+  color: #a2d6f9;
+  background-color: #22333b;
+  color: #f4ce52;
+  color: #f0db4f;
+
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700px;
+  font-size: 35px;
+}
+.paragraf {
+  padding: 10px 0 10px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.v-footer > div {
+  font-family: 'Ubuntu', sans-serif;
+}
+.isimSoyisim {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  background-color: rgba(240, 239, 235, 0.4);
+  color: #181d2f;
+  font-weight: bolder;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  /* padding: 30px; */
+  padding: 0 30px;
+  position: absolute;
+  bottom: -2px;
+}
+.unvan {
+  font-size: 1em;
+  margin-top: -10px;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black !important;
+}
+.v-application > a > .v-icon {
+  color: white;
+}
+
+@media screen and (max-width: 1250px) {
+  .isimSoyisim {
+    font-size: 1.5em;
+  }
+  .unvan {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .isimSoyisim {
+    font-size: 1.2em;
+  }
+  .unvan {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 650px) {
+  .isimSoyisim {
+    font-size: 1em;
+  }
+  .unvan {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .isimSoyisim {
+    font-size: 0.7em;
+
+    bottom: -5px;
+  }
+  .unvan {
+    font-size: 0.6em;
+    margin-top: -2px;
+  }
+}
