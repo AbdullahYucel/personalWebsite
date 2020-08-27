@@ -1,3 +1,24 @@
-# My Personal Website
+# new
 
-This website is designed for present me and my skills. By the way, I hope to attract attention of employers and companies.
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

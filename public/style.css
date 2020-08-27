@@ -64,6 +64,9 @@ a:active {
 .v-application > a > .v-icon {
   color: white;
 }
+.contact-margin {
+  margin: 20px 0;
+}
 
 @media screen and (max-width: 1250px) {
   .isimSoyisim {
@@ -71,6 +74,10 @@ a:active {
   }
   .unvan {
     font-size: 1.2em;
+  }
+  .baslik,
+  .display-1 {
+    font-size: 30px;
   }
 }
 
@@ -81,6 +88,10 @@ a:active {
   .unvan {
     font-size: 1em;
   }
+  .baslik,
+  .display-1 {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 650px) {
   .isimSoyisim {
@@ -88,6 +99,16 @@ a:active {
   }
   .unvan {
     font-size: 1em;
+  }
+  .baslik,
+  .display-1 {
+    font-size: 22px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-margin {
+    margin: 2px 0;
   }
 }
 @media screen and (max-width: 500px) {
@@ -99,5 +120,16 @@ a:active {
   .unvan {
     font-size: 0.6em;
     margin-top: -2px;
+  }
+  .baslik,
+  .display-1 {
+    font-size: 20px;
+    margin-top: 0;
+    border-radius: 10px;
+  }
+  .paragraf {
+    padding: 10px 0 10px 20px;
+    font-size: 17px;
+    margin-top: 5px;
   }
 }

@@ -63,7 +63,7 @@
       </v-flex>
 
       <template v-for="(contact,i) in contactLinks">
-        <v-flex xs12 sm4 :key="i" class="my-5">
+        <v-flex xs12 sm4 :key="i" class="contact-margin">
           <Contact :contact="contact" />
         </v-flex>
       </template>
@@ -88,7 +88,7 @@ export default {
         {
           name: "Ege Eğitim 360",
           logo: "360.png",
-          link: "https://www.ege360.abdullahyucel.com",
+          link: "https://ege360.abdullahyucel.com",
           description: "360° Tour of Ege University, Education Faculty",
           price: "Open Source",
           platforms: [
@@ -147,7 +147,7 @@ export default {
           description: "Shoe selling  website",
           price: "Open Source",
           logo: "ticaret.png",
-          link: "https://www.fakeshop.abdullahyucel.com",
+          link: "https://fakestore.abdullahyucel.com",
 
           platforms: [
             {
