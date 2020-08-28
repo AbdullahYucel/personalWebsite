@@ -12,8 +12,7 @@
             class="paragraf column"
             xs12
             sm6
-            style="text-indent: 30px;"
-          >&nbsp; I was graduated from Ege University as an education technologies teacher. Then I was forced to change career by 3rd party reasons . Now, I'm a junior front end developer with using those technologies.</v-flex>
+          >I graduated from Ege University as an education technologies teacher. Then, I was forced to change career by 3rd party reasons . Now, I'm a junior front end developer by using those technologies.</v-flex>
           <v-flex class="paragraf column" style="border-left:2px solid;" xs12 sm6>
             <v-layout wrap>
               <template v-for="(talent,i) in knowledge">
@@ -89,7 +88,8 @@ export default {
           name: "Ege Eğitim 360",
           logo: "360.png",
           link: "https://ege360.abdullahyucel.com",
-          description: "360° Tour of Ege University, Education Faculty",
+          description:
+            "360° Virtual Tour of Ege University, Faculty of Education",
           price: "Open Source",
           platforms: [
             {

@@ -29,7 +29,7 @@
   font-size: 35px;
 }
 .paragraf {
-  padding: 10px 0 10px 20px;
+  padding: 10px 10px 10px 20px;
   font-size: 20px;
   margin-top: 20px;
 }
@@ -110,6 +110,9 @@ a:active {
   .contact-margin {
     margin: 2px 0;
   }
+  .paragraf {
+    border: none !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .isimSoyisim {
@@ -128,8 +131,9 @@ a:active {
     border-radius: 10px;
   }
   .paragraf {
-    padding: 10px 0 10px 20px;
+    padding: 10px 10px 10px 20px;
     font-size: 17px;
     margin-top: 5px;
+    margin-right: 0;
   }
 }
