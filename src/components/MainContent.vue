@@ -12,7 +12,7 @@
             class="paragraf column"
             xs12
             sm6
-          >I graduated from Ege University as an education technologies teacher. Then, I was forced to change career by 3rd party reasons . Now, I'm a junior front end developer by using those technologies.</v-flex>
+          >I graduated from Ege University as an education technologies teacher. Then, I was forced to change career by 3rd party reasons. Now, I'm a junior front end developer by using those technologies.</v-flex>
           <v-flex class="paragraf column" style="border-left:2px solid;" xs12 sm6>
             <v-layout wrap>
               <template v-for="(talent,i) in knowledge">
